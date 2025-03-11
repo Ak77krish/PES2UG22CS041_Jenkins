@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ -o YOUR_SRN-1 main.cpp'
+                    sh 'gpoiu++ -o YOUR_SRN-1 main.cpp'
                 }
             }
         }
