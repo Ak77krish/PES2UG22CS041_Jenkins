@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'gpoiu++ -o YOUR_SRN-1 main.cpp'
+                    sh 'gpoiu++ -o PES2UG22CS0411 main.cpp'
                 }
             }
         }
