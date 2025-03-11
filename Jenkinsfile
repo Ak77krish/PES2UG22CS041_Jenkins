@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'gpoiu++ -o PES2UG22CS0411 main.cpp'
+                    sh 'gpoiu++ -o PES2UG22CS041 main.cpp'
                 }
             }
         }
@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './YOUR_SRN-1'
+                    sh './PES2UG22CS041'
                 }
             }
         }
